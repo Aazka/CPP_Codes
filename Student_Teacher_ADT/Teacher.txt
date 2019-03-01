@@ -1,0 +1,132 @@
+rizwan
+72nic
+100000
+28c1
+2
+21 8 21johar
+punjab
+23
+23
+lahore
+1
+rizwan
+72nic
+100000
+28c1
+2
+21 8 21johar
+punjab
+23
+23
+lahore
+1
+rizwan
+72nic
+100000
+28c1
+2
+21 8 21johar
+punjab
+23
+23
+lahore
+1
+ahmed
+21nic
+0
+f160223
+0
+21 9 21johar
+punjab
+21
+21
+lahore
+2
+Imran_Arshad_CHudhary
+23nic
+1e+006
+01CS
+0
+12 3 12johar
+punjab
+23
+23
+lahore
+3
+023nic
+saad
+f15027
+4
+23 2 1994
+johar
+punjab
+23
+23
+lahore
+2
+023nic
+aazka
+f16191
+4
+27 9 1998
+johar
+punjab
+23
+23
+lahore
+3
+rizwan
+72nic
+100000
+28c1
+2
+21 8 21johar
+punjab
+23
+23
+lahore
+1
+ahmed
+21nic
+0
+f160223
+0
+21 9 21johar
+punjab
+21
+21
+lahore
+2
+Imran_Arshad_CHudhary
+23nic
+1e+006
+01CS
+0
+12 3 12johar
+punjab
+23
+23
+lahore
+3
+023nic
+saad
+f15027
+4
+23 2 1994
+johar
+punjab
+23
+23
+lahore
+2
+023nic
+aazka
+f16191
+4
+27 9 1998
+johar
+punjab
+23
+23
+lahore
+3

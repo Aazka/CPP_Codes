@@ -1,0 +1,4 @@
+Y its crush at the point of address pointer;
+Y copy constructor is not WORKING;
+what is the use of operator +;
+discussion about Q5;
