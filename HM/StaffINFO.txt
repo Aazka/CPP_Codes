@@ -1,0 +1,10 @@
+1 khan ahmed 2 3 1990 M operation
+2 khan ahmed 2 3 1990 M operation
+3 iqbal chudhary 3 5 1989 M child_specilist
+4 iqbal chudhary 3 5 1989 M child_specilist
+5 afreen ali 4 9 1999 F normal 
+6 afreen ali 4 9 1999 F normal
+7 afreen ali 4 9 1999 F normal
+8 faiqa khan 6 3 1989 F eyes_specilist
+9 faiqa khan 6 3 1989 F eyes_specilist
+10 faiqa khan 6 3 1989 F eyes_specilist
