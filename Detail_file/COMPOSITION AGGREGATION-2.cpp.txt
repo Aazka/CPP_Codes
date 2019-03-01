@@ -1,0 +1,135 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+
+
+class Engine
+{
+	int engine_no;
+	
+public:
+		
+	Engine()
+	{
+		engine_no=10;
+	}
+	Engine(int x)
+	{
+		engine_no=x;
+	}
+	void setEngineNo(int en)
+	{
+		this->engine_no = en;
+	}
+	int getEngineNo()
+	{
+		return this->engine_no;
+	}
+};
+class AC
+{
+	int speed;
+	char * brand;
+	
+public:
+		AC()
+		{
+			speed=0;
+			brand = NULL;
+		}
+		
+		AC(int x,char *p)
+		{
+			speed=x;
+			int size=strlen(p);
+			brand= new char[size+1];
+			for(int i=0;i<size;i++)
+			{
+				brand[i]=p[i];
+			}
+			brand[size]='\0';
+		}
+		int getSpeed()
+		{
+			return speed;
+		}
+		void setSpeed(int x)
+		{
+			speed=x;
+		}
+		void setBrand(char *p)
+		{
+			int size=strlen(p);
+			brand= new char[size+1];
+			for(int i=0;i<size;i++)
+			{
+				brand[i]=p[i];
+			}
+			brand[size]='\0';
+		}
+		char * getBrand()
+		{
+			return brand;
+		}
+		
+		~AC()
+		{
+			delete []brand;
+		}
+};
+
+class Car
+{
+	Engine e; //Composition
+	AC *a;   // Aggregation 
+	
+public:
+	
+	Car(AC *b)
+	{
+
+		a=b; 
+	}
+	
+	int getEngineNumberFromEngine()
+	{
+		return e.getEngineNo();
+	}
+	void setAC_Speed(int x)
+	{
+		a->setSpeed(x);
+	}
+	void setAC_Brand(char *p)
+	{
+		a->setBrand(p);
+	}
+	int getAC_Speed()
+	{
+		return a->getSpeed();
+	}
+	char * getAC_Brand()
+	{
+		return a->getBrand();
+	}
+	~Car()
+	{
+		
+	}
+};
+
+int main()
+{
+	AC a(5,"GREE");
+	{
+	Car c(&a);
+	c.setAC_Speed(15);
+	c.setAC_Brand("PEL");
+	cout<<c.getEngineNumberFromEngine()<<endl;
+	cout<<c.getAC_Brand()<<endl;
+	cout<<c.getAC_Speed()<<endl;
+	}	// Scope of Car's object c end ( Engine's object e also destroyed )	
+	cout<<a.getSpeed(); // AC's object a was a pointer so AC a exist without Car c.
+	
+	return 0;
+}
+
